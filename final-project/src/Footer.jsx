@@ -2,7 +2,7 @@
 function Footer() {
   return(
     <footer>
-      <p>&copy; {new Date().getFullYear()} Your website name. All Rights Reserved</p>
+      <p>&copy; {new Date().getFullYear()} The Pomodoro App. All Rights Reserved</p>
     </footer>
   )
 }
