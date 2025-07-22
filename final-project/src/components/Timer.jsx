@@ -1,9 +1,9 @@
-import { useState, useEffect, useRef } from "react";
-import "./Timer.css";
+import { useState, useRef, useEffect } from "react";
+import "./App.css";
 
-export default function Timer({ onSessionStart }) {
-  const [timeLeft, setTimeLeft] = useState(25 * 60); // 25 minutes
-  const [isRunning, setIsRunning] = useState(false);
-  const timerRef = useRef(null);
+function App() {
+  const [timeLeft, setTimeLeft] = useState(1500); // 25 minutes
+  const [quote, setQuote] = useState(null);       // For quote text
+  const intervalRef = useRef(null);               // Timer ID
 
-export default function Timer
+}
