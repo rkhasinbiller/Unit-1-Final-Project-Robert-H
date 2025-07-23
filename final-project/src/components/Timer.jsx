@@ -67,9 +67,9 @@ export default function Timer() {
       </div>
 
       <div className="buttons">
-        <button className="start" onClick={startTimer}>START</button>
-        <button className="stop" onClick={stopTimer}>STOP</button>
-        <button className="reset" onClick={resetTimer}>RESET</button>
+        <button className="start-btn" onClick={startTimer}>START</button>
+        <button className="stop-btn" onClick={stopTimer}>STOP</button>
+        <button className="reset-btn" onClick={resetTimer}>RESET</button>
       </div>
 
       <div className="quote-section">
