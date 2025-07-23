@@ -1,5 +1,7 @@
 import calmingImage from "../assets/calming.jpg";
+import Form from "../components/Form";
 
+<Form />
 
 export default function About() {
   return (

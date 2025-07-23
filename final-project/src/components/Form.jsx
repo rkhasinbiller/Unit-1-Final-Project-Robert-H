@@ -10,7 +10,7 @@ export default function Form() {
       setError("Name is required!");
     } else {
       setError("");
-      alert(`Welcome, ${name}!`);
+      alert(`Hello, ${name}!`);
     }
   }
 
