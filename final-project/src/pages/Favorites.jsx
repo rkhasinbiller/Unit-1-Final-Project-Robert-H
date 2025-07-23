@@ -8,7 +8,7 @@ export default function Favorites() {
     <ul>
       <li>Helps stay focused.</li>
       <li>Gives you a goal to shoot for.</li>
-      <li>Helps if you're short on time. You can find 25 min to study.</li>
+      <li>Helps if you're short on time. You can always find 25 min to study.</li>
     </ul>
     </div>
 
