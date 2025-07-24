@@ -1,6 +1,4 @@
-export default function List() {
-  const items = ["Helps stay focused.", "Gives you a goal to shoot for.", "Helps if you're short on time. You can always find 25 min to study."];
-
+export default function List({ items }) {
   return (
     <div>
       <h3>Why Use Pomodoro</h3>
