@@ -31,7 +31,6 @@ Technologies:
 - Netlify (deployment)
 
 
-The Pomodoro App
 
 
 Robert Hasinbiller. 2025 LaunchCode Unit 1 Final Project.
