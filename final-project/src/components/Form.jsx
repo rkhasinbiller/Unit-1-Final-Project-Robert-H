@@ -3,14 +3,20 @@ import { useState } from "react";
 export default function Form() {
   const [name, setName] = useState("");
   const [error, setError] = useState("");
+  const [success, setSuccess] = useState(""); // correct location
 
   function handleSubmit(e) {
     e.preventDefault();
     if (!name.trim()) {
       setError("Name is required!");
+      setSuccess("");
     } else {
       setError("");
-      alert(`Hello, ${name}!`);
+      setSuccess(`Hello, ${name}!`);
+
+       setTimeout(() => {
+      setSuccess("");
+    }, 3000);
     }
   }
 
@@ -24,6 +30,7 @@ export default function Form() {
       />
       <button type="submit">Submit</button>
       {error && <p style={{ color: "red" }}>{error}</p>}
+      {success && <p style={{ color: "green" }}>{success}</p>}
     </form>
   );
 }

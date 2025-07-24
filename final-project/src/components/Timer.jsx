@@ -19,8 +19,9 @@ export default function Timer() {
         });
       })
       .catch((err) => {
-        console.error("Failed to fetch quote:", err);
-      });
+  setQuote({ content: "Failed to fetch quote.", author: "" });
+});
+
   }
 
   // Load new quote
