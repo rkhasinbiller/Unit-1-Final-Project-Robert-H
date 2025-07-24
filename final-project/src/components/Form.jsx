@@ -5,6 +5,7 @@ export default function Form() {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState(""); // correct location
 
+  // Handle input form submission
   function handleSubmit(e) {
     e.preventDefault();
     if (!name.trim()) {

@@ -29,6 +29,7 @@ export default function Timer() {
     fetchQuote();
   }, []);
 
+  // Start countdown timer
   function startTimer() {
     if (intervalRef.current !== null) return;
 
@@ -49,6 +50,7 @@ export default function Timer() {
     intervalRef.current = null;
   }
 
+  // Reset timer back to 25 minutes
   function resetTimer() {
     clearInterval(intervalRef.current);
     intervalRef.current = null;
