@@ -6,7 +6,11 @@
   text-align: center;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in;
 }
+
+
+
 
 .timer-display {
   font-size: 3rem;
@@ -124,3 +128,4 @@
 .timer-display {
   animation: pulse 1.5s infinite;
 }
+

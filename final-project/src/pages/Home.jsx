@@ -4,7 +4,7 @@ import Form from "../components/Form";
 
 export default function Home() {
   return (
-    <div>
+    <div className="page-wrapper">
       <h2>Welcome to The Pomodoro App</h2>
       <p>This app helps you stay productive with 25-minute work intervals.</p>
 
@@ -12,7 +12,6 @@ export default function Home() {
         <Form />
         <Timer />
       </div>
-      
     </div>
   );
 }

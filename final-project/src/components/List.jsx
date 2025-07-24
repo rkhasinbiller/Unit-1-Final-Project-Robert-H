@@ -1,3 +1,5 @@
+//Displays list of why use a Pomodoro app
+
 export default function List({ items }) {
   return (
     <div>

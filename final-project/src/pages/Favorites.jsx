@@ -8,7 +8,7 @@ export default function Favorites() {
   ];
 
   return (
-    <div style={{ padding: "2rem" }}>
+    <div className="page-wrapper">
       <h2>Favorites</h2>
       <p>Features coming soon. Until then, below is a breakdown of how our sessions work.</p>
       
