@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import "./Timer.css";
+import QuoteItem from "./QuoteItem";
 
 export default function Timer() {
   const [timeLeft, setTimeLeft] = useState(1500); // 25 minutes
@@ -75,13 +76,11 @@ export default function Timer() {
       <div className="quote-section">
         <h2>Motivational Quote</h2>
         {quote ? (
-          <>
-            <p>"{quote.content}"</p>
-            <p>– {quote.author}</p>
-          </>
-        ) : (
-          <p>Loading quote...</p>
-        )}
+  <QuoteItem content={quote.content} author={quote.author} />
+) : (
+  <p>Loading quote...</p>
+)}
+
         <button className="quote-btn" onClick={fetchQuote}>New Quote</button>
       </div>
     </div>
