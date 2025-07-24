@@ -19,7 +19,7 @@ Features
 - Reusable components (i.e. Button, Header, Footer)
 - Conditional rendering and state updates
 - Form with validation
-- Sample list (for favorites or quotes)
+- Sample list (for reasons to use)
 - Fully responsive layout using CSS
 - Deployed using Netlify
 
