@@ -1,7 +1,7 @@
 import calmingImage from "../assets/calming.jpg";
 import Form from "../components/Form";
 
-<Form />
+
 
 export default function About() {
   return (
@@ -20,6 +20,7 @@ export default function About() {
       <p>
         You’ll also get motivational quotes to keep your spirits high while working hard!
       </p>
+      <Form />
     </div>
   );
 }
